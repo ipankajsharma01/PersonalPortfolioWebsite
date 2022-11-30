@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Rubik+Microbe&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(104, 109, 111);
+    /* width: 200px; */
+    font-family: 'Uchen', serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav {
+    padding: 0px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: medium;
+    padding: 34px;
+
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main {
+    /* background-color: rgb(73, 64, 64); */
+    width: 90vw;
+    
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.Cross{
+    margin-left: 85px;
+}
+
+.container {
+    display: flex;
+}
+.sidebargo{
+    transform: translate(-45px 0px);
+    position: absolute;
+}
+
+.infocontainer {
+    background-color: rgb(237, 229, 217);
+    height: 65vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.devPic img {
+    width: 230px;
+    height: 65vh;
+
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Uchen', serif;
+}
+
+.about {
+    font-size: 38px;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 23px;
+    font-family: 'Uchen', serif;
+}
+
+.buttons {
+    margin-top: 24px;
+}
+
+.buttons button {
+    background-color: rgb(24, 23, 21);
+    padding: 8px 13px;
+    border-style: solid;
+    border-radius: 14px;
+    color: azure;
+    font-size: 20px;
+    font-weight: initial;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(12, 10, 10);
+    color: rgb(39, 206, 206);
+}
+
+.contactform {
+    font-family: 'Uchen', serif;
+    padding: 8px;
+}
+
+.contactform h1 {
+    padding: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.contactform div {
+    padding: 7px;
+    display: grid;
+}
+
+.list-unstyled {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text-center {
+    font-style: inherit;
+    font-display: none;
+}
+
+.blogitem h1 {
+    text-align: center;
+    border: 10px solid blanchedalmond;
+    font-size: 50px;
+}
+
+.blogitem h2 {
+    text-align: left;
+    padding: 24px;
+    font-size: 35px;
+
+}
+
+.blogitem p {
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+.blogitem button {
+    text-align: center;
+    padding: 7px 15px;
+    font-size: 15px;
+    margin: 10px;
+
+
+}
+
+.blogitem button:hover {
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: 100;
+
+
+}
+
+.intro h1 {
+    border: 5px solid blanchedalmond;
+    text-align: center;
+    margin: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro p {
+    font-style: normal;
+    padding: 10px;
+}
+
+.skill {
+    width: 263px;
+    height: 3px;
+    background-color: red;
+    border: 2px solid cadetblue;
+    
+}
+
+.skillcontainer {
+    padding: 12px;
+
+}
+
+.skillitem {
+    align-items: center;
+    display: flex;
+    font-weight: 900;
+}
+
+.hundred {
+    width: 214x;
+
+}
+
+.fifty {
+    width: 165px;
+
+}
+
+.twentyfive {
+    width: 85px;
+
+}
+.thousand{
+    width: 344px;
+}
